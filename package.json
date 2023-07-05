@@ -1,6 +1,6 @@
 {
   "name": "ts-project",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "A Simple Typescript Template with Jest",
   "private": true,
   "main": "index.js",
@@ -18,21 +18,22 @@
   "license": "ISC",
   "devDependencies": {
     "@builder.io/eslint-plugin-mitosis": "^0.0.14",
+    "@builder.io/mitosis": "^0.0.108",
+    "@builder.io/mitosis-cli": "^0.0.66",
     "@jest/globals": "^29.6.0",
     "@types/jest": "^29.5.2",
     "eslint": "^8.44.0",
     "eslint-plugin-react": "^7.32.2",
     "jest": "^29.6.0",
+    "npm": "^9.7.2",
     "nx": "16.4.3",
     "nx-cloud": "latest",
     "ts-jest": "^29.1.1",
-    "typescript": "^5.1.6"
+    "typescript": "^5.1.6",
+    "mitosis": "^1.0.0",
+    "ts-morph": "^19.0.0"
   },
   "nx": {
     "targets": {}
-  },
-  "dependencies": {
-    "@builder.io/mitosis": "^0.0.108",
-    "@builder.io/mitosis-cli": "^0.0.66"
   }
 }
