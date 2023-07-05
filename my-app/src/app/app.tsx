@@ -1,14 +1,22 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
-import styles from './app.module.css';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import '../styles.css'
+import GoogleAuthCallback from './GoogleAuthCallback'
+import Home from './Home'
 
-import NxWelcome from './nx-welcome';
-
-export function App() {
+function App() {
   return (
-    <div>
-      <NxWelcome title="my-app" />
-    </div>
-  );
+    <Router>
+      <Routes>
+      <Route path="/auth/callback/google"
+      element={<GoogleAuthCallback />} 
+      />
+      <Route path="/"
+      element={<Home />}  
+      />
+      </Routes>
+    </Router>
+  )
 }
 
-export default App;
+export default App
