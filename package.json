@@ -7,7 +7,8 @@
   "scripts": {
     "build": "nx exec -- tsc -p tsconfig.json",
     "test": "nx exec -- jest",
-    "lint": "nx exec -- eslint -c .eslintrc.js"
+    "lint": "nx exec -- eslint -c .eslintrc.js",
+    "mitosis": "mitosis build --debug"
   },
   "keywords": [
     "jest",
