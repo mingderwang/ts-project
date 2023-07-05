@@ -2,8 +2,6 @@
   "compilerOptions": {
     "jsx": "preserve",
     "jsxImportSource": "@builder.io/mitosis",
-    "target": "es6",
-    "module": "commonjs",
     "outDir": "dist",
     "strict": true
   },
@@ -13,6 +11,6 @@
     "tests/**/*.ts",
     "tests/**/*.tsx",
     "typings/**/*.d.ts"
-  ], 
-  "exclude": ["node_modules", "dist"]
+  ],
+  "extends": "./tsconfig.base.json"
 }
