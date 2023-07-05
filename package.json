@@ -1,0 +1,33 @@
+{
+  "name": "ts-project",
+  "version": "0.0.1",
+  "description": "A Simple Typescript Template with Jest",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "build": "nx exec -- nx exec -- tsc -p tsconfig.json",
+    "test": "nx exec -- nx exec -- jest",
+    "lint": "nx exec -- nx exec -- eslint -c .eslintrc.js"
+  },
+  "keywords": [
+    "jest",
+    "typescript",
+    "template"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@jest/globals": "^29.6.0",
+    "@types/jest": "^29.5.2",
+    "eslint": "^8.44.0",
+    "eslint-plugin-react": "^7.32.2",
+    "jest": "^29.6.0",
+    "nx": "16.4.3",
+    "nx-cloud": "latest",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.1.6"
+  },
+  "nx": {
+    "targets": {}
+  }
+}
