@@ -1,13 +1,13 @@
 {
   "name": "ts-project",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Simple Typescript Template with Jest",
   "private": true,
   "main": "index.js",
   "scripts": {
-    "build": "nx exec -- nx exec -- tsc -p tsconfig.json",
-    "test": "nx exec -- nx exec -- jest",
-    "lint": "nx exec -- nx exec -- eslint -c .eslintrc.js"
+    "build": "nx exec -- tsc -p tsconfig.json",
+    "test": "nx exec -- jest",
+    "lint": "nx exec -- eslint -c .eslintrc.js"
   },
   "keywords": [
     "jest",
