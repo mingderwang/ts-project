@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
+    "jsx": "preserve",
+    "jsxImportSource": "@builder.io/mitosis",
     "target": "es6",
     "module": "commonjs",
     "outDir": "dist",

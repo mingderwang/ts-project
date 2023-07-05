@@ -17,6 +17,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@builder.io/eslint-plugin-mitosis": "^0.0.14",
     "@jest/globals": "^29.6.0",
     "@types/jest": "^29.5.2",
     "eslint": "^8.44.0",
@@ -29,5 +30,9 @@
   },
   "nx": {
     "targets": {}
+  },
+  "dependencies": {
+    "@builder.io/mitosis": "^0.0.108",
+    "@builder.io/mitosis-cli": "^0.0.66"
   }
 }
